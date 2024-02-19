@@ -1,0 +1,17 @@
+{
+	id: "80e8bb02-4485-3fc5-a8b5-f8cd9d42a992"
+	type: "player"
+	player_name: "Akky"
+	ranks: { }
+	properties: {
+		"ftbteams:display_name": "Akky"
+		"ftbteams:color": "#5959FF"
+		"ftbchunks:block_edit_mode": "allies"
+		"ftbchunks:block_interact_mode": "allies"
+		"ftbteams:description": ""
+		"ftbteams:free_to_join": 0b
+		"ftbchunks:allow_fake_players": 1b
+	}
+	message_history: [ ]
+	extra: { }
+}

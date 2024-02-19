@@ -1,0 +1,17 @@
+{
+	id: "2735fbdb-593e-35b9-8e07-c5af92043c99"
+	type: "player"
+	player_name: "bhowxy"
+	ranks: { }
+	properties: {
+		"ftbteams:display_name": "bhowxy"
+		"ftbteams:color": "#FF5996"
+		"ftbchunks:block_edit_mode": "allies"
+		"ftbchunks:block_interact_mode": "allies"
+		"ftbteams:description": ""
+		"ftbteams:free_to_join": 0b
+		"ftbchunks:allow_fake_players": 1b
+	}
+	message_history: [ ]
+	extra: { }
+}

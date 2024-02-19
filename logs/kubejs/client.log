@@ -1,0 +1,14 @@
+[18:40:54] [INIT] KubeJS 1902.6.2-build.59; MC 1902 forge
+[18:40:54] [INIT] Loaded plugins:
+[18:40:54] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[18:40:54] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[18:40:54] [INIT] - dev.latvian.mods.kubejs.thermal.KubeJSThermalPlugin
+[18:40:54] [INIT] - com.klikli_dev.modonomicon.integration.kubejs.ModonomiconKubeJSPlugin
+[18:40:54] [INIT] - dev.latvian.mods.kubejs.create.KubeJSCreatePlugin
+[18:40:54] [INFO] Loaded script client_scripts:client.js in 0.003 s
+[18:40:54] [ERROR] ! ponder.js#1: Tried to register event handler 'StartupEvents.registry' for invalid script type CLIENT! Valid script types: [STARTUP]
+[18:40:54] [INFO] Loaded script client_scripts:ponder.js in 0.006 s
+[18:40:54] [INFO] Loaded 2/2 KubeJS client scripts in 0.021 s
+[18:41:52] [ERROR] ! client.js#93: Error occurred while handling event 'ItemEvents.tooltip': TypeError: Cannot find function add in object [object Object].
+[18:41:56] [ERROR] ! client.js#129: Error occurred while handling event 'JEIEvents.information': TypeError: Cannot find function add in object dev.latvian.mods.kubejs.integration.forge.jei.InformationJEIEventJS@7afe9e39.
+[18:41:57] [ERROR] ! client.js#31: Error occurred while handling event 'JEIEvents.removeCategories': TypeError: Cannot find function yeetIf in object dev.latvian.mods.kubejs.integration.forge.jei.RemoveJEICategoriesEvent@f352b4d.

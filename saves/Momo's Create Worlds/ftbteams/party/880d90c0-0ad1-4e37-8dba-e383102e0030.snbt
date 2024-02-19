@@ -1,0 +1,26 @@
+{
+	id: "880d90c0-0ad1-4e37-8dba-e383102e0030"
+	type: "party"
+	owner: "db486231-51dd-45e5-ab53-6e9531d38a45"
+	ranks: {
+		db486231-51dd-45e5-ab53-6e9531d38a45: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "Akky Team"
+		"ftbteams:color": "#AEFF59"
+		"ftbchunks:block_edit_mode": "allies"
+		"ftbchunks:block_interact_mode": "allies"
+		"ftbteams:description": "The Great Akky Team!"
+		"ftbteams:free_to_join": 0b
+		"ftbchunks:allow_fake_players": 1b
+	}
+	message_history: [
+		{ from: "00000000-0000-0000-0000-000000000000", date: 1705464631247L, text: "{\"color\":\"yellow\",\"extra\":[{\"text\":\"Akky\"},{\"text\":\" joined your party!\"}],\"text\":\"\"}" }
+		{ from: "db486231-51dd-45e5-ab53-6e9531d38a45", date: 1705464631260L, text: "{\"color\":\"green\",\"text\":\"Invited bhowxy\"}" }
+		{ from: "00000000-0000-0000-0000-000000000000", date: 1705464637350L, text: "{\"color\":\"green\",\"extra\":[{\"text\":\"bhowxy\"},{\"text\":\" joined your party!\"}],\"text\":\"\"}" }
+		{ from: "2735fbdb-593e-35b9-8e07-c5af92043c99", date: 1705975218505L, text: "{\"text\":\"/ftbteams\"}" }
+		{ from: "2735fbdb-593e-35b9-8e07-c5af92043c99", date: 1705975229367L, text: "{\"text\":\"/exit\"}" }
+		{ from: "00000000-0000-0000-0000-000000000000", date: 1705975266679L, text: "{\"color\":\"yellow\",\"extra\":[{\"text\":\"bhowxy\"},{\"text\":\" left your party!\"}],\"text\":\"\"}" }
+	]
+	extra: { }
+}

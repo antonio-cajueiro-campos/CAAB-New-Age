@@ -1,0 +1,360 @@
+[18:41:31] [INIT] KubeJS 1902.6.2-build.59; MC 1902 forge
+[18:41:31] [INIT] Loaded plugins:
+[18:41:31] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[18:41:31] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[18:41:31] [INIT] - dev.latvian.mods.kubejs.thermal.KubeJSThermalPlugin
+[18:41:31] [INIT] - com.klikli_dev.modonomicon.integration.kubejs.ModonomiconKubeJSPlugin
+[18:41:31] [INIT] - dev.latvian.mods.kubejs.create.KubeJSCreatePlugin
+[18:41:31] [INFO] Loaded script server_scripts:better_dynamo_placement.js in 0.003 s
+[18:41:31] [INFO] Loaded script server_scripts:bonkers_chemistry.js in 0.009 s
+[18:41:31] [INFO] Loaded script server_scripts:express_mode.js in 0.0 s
+[18:41:31] [INFO] Loaded script server_scripts:loot.js in 0.003 s
+[18:41:31] [INFO] Loaded script server_scripts:misc.js in 0.002 s
+[18:41:31] [ERROR] ! quests.js#1: Error loading KubeJS script: server_scripts:quests.js': ReferenceError: "events" is not defined.
+[18:41:31] [INFO] Loaded script server_scripts:recipes.js in 0.02 s
+[18:41:31] [INFO] Loaded script server_scripts:recipes_commented.js in 0.0 s
+[18:41:31] [INFO] Loaded script server_scripts:tags.js in 0.002 s
+[18:41:31] [INFO] Loaded 8/9 KubeJS server scripts in 0.088 s
+[18:41:31] [INFO] Scripts loaded
+[18:41:31] [INFO] Initializing recipe event...
+[18:41:35] [INFO] [minecraft:item] Found 1171 tags, added 711 objects, removed 0 objects
+[18:41:35] [INFO] Processing recipes...
+[18:41:35] [WARN] Failed to parse recipe 'thermal:compat/create/pulverizer_create_zinc_ore[thermal:pulverizer]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'create:deepslate_zinc'
+[18:41:35] [INFO] Found 16067 recipes in 207.6 ms
+[18:41:36] [ERROR] ! recipes.js#1038: Failed to create custom JSON recipe from '{"type":"tconstruct:alloy","inputs":[{"name":"tconstruct:molten_silver","amount":144},{"name":"tconstruct:molten_copper","amount":144},{"name":"thermal:redstone","amount":1000}],"result":{"fluid":"tconstruct:molten_signalum","amount":144},"temperature":1000}': Unknown recipe type: tconstruct:alloy
+[18:41:36] [ERROR] ! recipes.js#1052: Failed to create custom JSON recipe from '{"type":"tconstruct:alloy","inputs":[{"name":"tconstruct:molten_silver","amount":144},{"name":"tconstruct:molten_copper","amount":144},{"name":"thermal:glowstone","amount":1000}],"result":{"fluid":"tconstruct:molten_lumium","amount":144},"temperature":1000}': Unknown recipe type: tconstruct:alloy
+[18:41:36] [ERROR] ! recipes.js#1171: Failed to create recipe for type 'minecraft:smithing': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1172: Failed to create recipe for type 'create:mechanical_crafting': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1171: Failed to create recipe for type 'minecraft:smithing': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1172: Failed to create recipe for type 'create:mechanical_crafting': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1264: Failed to create custom JSON recipe from '{"type":"tconstruct:casting_basin","cast":{"item":"minecraft:cobblestone"},"cast_consumed":true,"fluid":{"name":"thermal:redstone","amount":50},"result":"minecraft:netherrack","cooling_time":30}': Unknown recipe type: tconstruct:casting_basin
+[18:41:36] [ERROR] ! recipes.js#1264: Failed to create custom JSON recipe from '{"type":"tconstruct:casting_basin","cast":{"item":"minecraft:sand"},"cast_consumed":true,"fluid":{"name":"thermal:redstone","amount":50},"result":"minecraft:red_sand","cooling_time":30}': Unknown recipe type: tconstruct:casting_basin
+[18:41:36] [ERROR] ! recipes.js#1310: Failed to create recipe for type 'minecraft:stonecutting': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1589: Failed to create recipe for type 'kubejs:shaped': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1601: Failed to create recipe for type 'minecraft:smithing': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1602: Failed to create recipe for type 'create:mechanical_crafting': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1601: Failed to create recipe for type 'minecraft:smithing': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1602: Failed to create recipe for type 'create:mechanical_crafting': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1601: Failed to create recipe for type 'minecraft:smithing': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1602: Failed to create recipe for type 'create:mechanical_crafting': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1601: Failed to create recipe for type 'minecraft:smithing': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1602: Failed to create recipe for type 'create:mechanical_crafting': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1601: Failed to create recipe for type 'minecraft:smithing': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1602: Failed to create recipe for type 'create:mechanical_crafting': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1627: Failed to create custom JSON recipe from '{"type":"tconstruct:melting","ingredient":{"item":"minecraft:redstone"},"result":{"fluid":"thermal:redstone","amount":100},"temperature":300,"time":10}': Unknown recipe type: tconstruct:melting
+[18:41:36] [ERROR] ! recipes.js#1640: Failed to create custom JSON recipe from '{"type":"tconstruct:melting","ingredient":{"item":"minecraft:redstone_block"},"result":{"fluid":"thermal:redstone","amount":900},"temperature":500,"time":90}': Unknown recipe type: tconstruct:melting
+[18:41:36] [ERROR] ! recipes.js#1660: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1668: Failed to create recipe for type 'kubejs:shaped': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1678: Failed to create recipe for type 'minecraft:stonecutting': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1679: Failed to create recipe for type 'minecraft:stonecutting': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1680: Failed to create recipe for type 'minecraft:stonecutting': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1681: Failed to create recipe for type 'minecraft:stonecutting': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1663: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1664: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1663: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1664: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1663: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1664: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1663: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1664: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1663: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1664: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1668: Failed to create recipe for type 'kubejs:shaped': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1678: Failed to create recipe for type 'minecraft:stonecutting': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1679: Failed to create recipe for type 'minecraft:stonecutting': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1680: Failed to create recipe for type 'minecraft:stonecutting': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1681: Failed to create recipe for type 'minecraft:stonecutting': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1663: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1664: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1663: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1664: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1663: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1664: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1663: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1664: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1663: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1664: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1668: Failed to create recipe for type 'kubejs:shaped': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1678: Failed to create recipe for type 'minecraft:stonecutting': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1679: Failed to create recipe for type 'minecraft:stonecutting': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1680: Failed to create recipe for type 'minecraft:stonecutting': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1681: Failed to create recipe for type 'minecraft:stonecutting': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1663: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1664: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1663: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1664: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1663: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1664: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1663: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1664: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1663: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1664: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1668: Failed to create recipe for type 'kubejs:shaped': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1678: Failed to create recipe for type 'minecraft:stonecutting': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1679: Failed to create recipe for type 'minecraft:stonecutting': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1680: Failed to create recipe for type 'minecraft:stonecutting': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1681: Failed to create recipe for type 'minecraft:stonecutting': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1663: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1664: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1663: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1664: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1663: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1664: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1663: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1664: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1663: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1664: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1668: Failed to create recipe for type 'kubejs:shaped': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1678: Failed to create recipe for type 'minecraft:stonecutting': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1679: Failed to create recipe for type 'minecraft:stonecutting': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1680: Failed to create recipe for type 'minecraft:stonecutting': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1681: Failed to create recipe for type 'minecraft:stonecutting': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1663: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1664: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1663: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1664: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1663: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1664: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1663: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1664: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1663: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1664: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1668: Failed to create recipe for type 'kubejs:shaped': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1678: Failed to create recipe for type 'minecraft:stonecutting': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1679: Failed to create recipe for type 'minecraft:stonecutting': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1680: Failed to create recipe for type 'minecraft:stonecutting': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1681: Failed to create recipe for type 'minecraft:stonecutting': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1663: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1664: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1663: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1664: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1663: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1664: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1663: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1664: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1663: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1664: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1668: Failed to create recipe for type 'kubejs:shaped': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1678: Failed to create recipe for type 'minecraft:stonecutting': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1679: Failed to create recipe for type 'minecraft:stonecutting': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1680: Failed to create recipe for type 'minecraft:stonecutting': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1681: Failed to create recipe for type 'minecraft:stonecutting': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1663: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1664: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1663: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1664: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1663: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1664: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1663: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1664: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1663: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1664: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1668: Failed to create recipe for type 'kubejs:shaped': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1678: Failed to create recipe for type 'minecraft:stonecutting': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1679: Failed to create recipe for type 'minecraft:stonecutting': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1680: Failed to create recipe for type 'minecraft:stonecutting': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1681: Failed to create recipe for type 'minecraft:stonecutting': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1663: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1664: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1663: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1664: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1663: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1664: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1663: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1664: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1663: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1664: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1668: Failed to create recipe for type 'kubejs:shaped': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1678: Failed to create recipe for type 'minecraft:stonecutting': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1679: Failed to create recipe for type 'minecraft:stonecutting': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1680: Failed to create recipe for type 'minecraft:stonecutting': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1681: Failed to create recipe for type 'minecraft:stonecutting': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1663: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1664: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1663: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1664: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1663: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1664: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1663: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1664: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1663: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1664: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1668: Failed to create recipe for type 'kubejs:shaped': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1678: Failed to create recipe for type 'minecraft:stonecutting': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1679: Failed to create recipe for type 'minecraft:stonecutting': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1680: Failed to create recipe for type 'minecraft:stonecutting': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1681: Failed to create recipe for type 'minecraft:stonecutting': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1663: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1664: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1663: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1664: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1663: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1664: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1663: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1664: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1663: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1664: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1668: Failed to create recipe for type 'kubejs:shaped': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1678: Failed to create recipe for type 'minecraft:stonecutting': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1679: Failed to create recipe for type 'minecraft:stonecutting': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1680: Failed to create recipe for type 'minecraft:stonecutting': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1681: Failed to create recipe for type 'minecraft:stonecutting': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1663: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1664: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1663: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1664: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1663: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1664: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1663: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1664: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1663: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1664: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1668: Failed to create recipe for type 'kubejs:shaped': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1678: Failed to create recipe for type 'minecraft:stonecutting': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1679: Failed to create recipe for type 'minecraft:stonecutting': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1680: Failed to create recipe for type 'minecraft:stonecutting': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1681: Failed to create recipe for type 'minecraft:stonecutting': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1663: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1664: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1663: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1664: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1663: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1664: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1663: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1664: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1663: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1664: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1668: Failed to create recipe for type 'kubejs:shaped': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1678: Failed to create recipe for type 'minecraft:stonecutting': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1679: Failed to create recipe for type 'minecraft:stonecutting': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1680: Failed to create recipe for type 'minecraft:stonecutting': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1681: Failed to create recipe for type 'minecraft:stonecutting': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1663: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1664: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1663: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1664: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1663: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1664: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1663: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1664: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1663: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1664: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1668: Failed to create recipe for type 'kubejs:shaped': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1678: Failed to create recipe for type 'minecraft:stonecutting': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1679: Failed to create recipe for type 'minecraft:stonecutting': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1680: Failed to create recipe for type 'minecraft:stonecutting': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1681: Failed to create recipe for type 'minecraft:stonecutting': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1663: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1664: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1663: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1664: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1663: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1664: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1663: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1664: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1663: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1664: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1668: Failed to create recipe for type 'kubejs:shaped': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1678: Failed to create recipe for type 'minecraft:stonecutting': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1679: Failed to create recipe for type 'minecraft:stonecutting': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1680: Failed to create recipe for type 'minecraft:stonecutting': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1681: Failed to create recipe for type 'minecraft:stonecutting': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1663: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1664: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1663: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1664: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1663: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1664: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1663: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1664: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1663: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1664: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1668: Failed to create recipe for type 'kubejs:shaped': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1678: Failed to create recipe for type 'minecraft:stonecutting': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1679: Failed to create recipe for type 'minecraft:stonecutting': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1680: Failed to create recipe for type 'minecraft:stonecutting': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1681: Failed to create recipe for type 'minecraft:stonecutting': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1663: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1664: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1663: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1664: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1663: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1664: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1663: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1664: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1663: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1664: Failed to create recipe for type 'kubejs:shapeless': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1692: Failed to create recipe for type 'minecraft:stonecutting': Ingredient 'ingredient' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1692: Failed to create recipe for type 'minecraft:stonecutting': Ingredient 'ingredient' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1692: Failed to create recipe for type 'minecraft:stonecutting': Ingredient 'ingredient' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1692: Failed to create recipe for type 'minecraft:stonecutting': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1692: Failed to create recipe for type 'minecraft:stonecutting': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1692: Failed to create recipe for type 'minecraft:stonecutting': Ingredient 'ingredient' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1692: Failed to create recipe for type 'minecraft:stonecutting': Ingredient 'ingredient' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1692: Failed to create recipe for type 'minecraft:stonecutting': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1692: Failed to create recipe for type 'minecraft:stonecutting': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1692: Failed to create recipe for type 'minecraft:stonecutting': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1692: Failed to create recipe for type 'minecraft:stonecutting': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1692: Failed to create recipe for type 'minecraft:stonecutting': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1692: Failed to create recipe for type 'minecraft:stonecutting': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1692: Failed to create recipe for type 'minecraft:stonecutting': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1692: Failed to create recipe for type 'minecraft:stonecutting': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1692: Failed to create recipe for type 'minecraft:stonecutting': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1692: Failed to create recipe for type 'minecraft:stonecutting': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1692: Failed to create recipe for type 'minecraft:stonecutting': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1692: Failed to create recipe for type 'minecraft:stonecutting': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1692: Failed to create recipe for type 'minecraft:stonecutting': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1692: Failed to create recipe for type 'minecraft:stonecutting': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1692: Failed to create recipe for type 'minecraft:stonecutting': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1692: Failed to create recipe for type 'minecraft:stonecutting': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1692: Failed to create recipe for type 'minecraft:stonecutting': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1692: Failed to create recipe for type 'minecraft:stonecutting': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1692: Failed to create recipe for type 'minecraft:stonecutting': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1692: Failed to create recipe for type 'minecraft:stonecutting': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1692: Failed to create recipe for type 'minecraft:stonecutting': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1692: Failed to create recipe for type 'minecraft:stonecutting': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1692: Failed to create recipe for type 'minecraft:stonecutting': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1692: Failed to create recipe for type 'minecraft:stonecutting': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1692: Failed to create recipe for type 'minecraft:stonecutting': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1692: Failed to create recipe for type 'minecraft:stonecutting': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1692: Failed to create recipe for type 'minecraft:stonecutting': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1692: Failed to create recipe for type 'minecraft:stonecutting': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1692: Failed to create recipe for type 'minecraft:stonecutting': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1692: Failed to create recipe for type 'minecraft:stonecutting': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1692: Failed to create recipe for type 'minecraft:stonecutting': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1692: Failed to create recipe for type 'minecraft:stonecutting': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1692: Failed to create recipe for type 'minecraft:stonecutting': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1692: Failed to create recipe for type 'minecraft:stonecutting': ItemStack 'result' can't be empty!
+[18:41:36] [ERROR] ! recipes.js#1744: Failed to create custom JSON recipe from '{"type":"tconstruct:casting_table","cast":{"item":"appliedenergistics2:calculation_processor_press"},"cast_consumed":false,"fluid":{"tag":"tconstruct:molten_copper","amount":144},"result":{"item":"appliedenergistics2:printed_calculation_processor"},"cooling_time":150}': Unknown recipe type: tconstruct:casting_table
+[18:41:36] [ERROR] ! recipes.js#1753: Failed to create custom JSON recipe from '{"type":"tconstruct:casting_table","cast":{"item":"appliedenergistics2:logic_processor_press"},"cast_consumed":false,"fluid":{"tag":"tconstruct:molten_gold","amount":144},"result":{"item":"appliedenergistics2:printed_logic_processor"},"cooling_time":150}': Unknown recipe type: tconstruct:casting_table
+[18:41:36] [ERROR] ! recipes.js#1762: Failed to create custom JSON recipe from '{"type":"tconstruct:casting_table","cast":{"item":"appliedenergistics2:engineering_processor_press"},"cast_consumed":false,"fluid":{"tag":"tconstruct:molten_diamond","amount":144},"result":{"item":"appliedenergistics2:printed_engineering_processor"},"cooling_time":150}': Unknown recipe type: tconstruct:casting_table
+[18:41:36] [ERROR] ! recipes.js#74: Error occurred while handling event 'ServerEvents.recipes': TypeError: Cannot find function toResultJson in object 1 air.
+[18:41:36] [INFO] Posted recipe events in 890.1 ms
+[18:41:36] [WARN] Error parsing recipe ravencoffee:cup_large_brew_awkward[minecraft:crafting_shapeless]: {"type":"minecraft:crafting_shapeless","ingredients":[{"item":"minecraft:nether_wart"},{"item":"ravencoffee:cup_large_brew_american"}],"result":{"item":"ravencoffee:cup_large_brew_awkward","count":1}}: com.google.gson.JsonSyntaxException: Unknown item 'ravencoffee:cup_large_brew_american'
+[18:41:36] [WARN] Error parsing recipe create:cutting/compat/forbidden_arcanus/cherrywood[create:cutting]: {"type":"create:cutting","conditions":[{"type":"forge:mod_loaded","modid":"forbidden_arcanus"}],"ingredients":[{"item":"forbidden_arcanus:cherrywood"}],"processingTime":50,"results":[{"item":"forbidden_arcanus:stripped_cherrywood"}]}: com.google.gson.JsonSyntaxException: Unknown item 'forbidden_arcanus:cherrywood'
+[18:41:36] [WARN] Error parsing recipe naturaldecormod:agave_flower_recipe[minecraft:crafting_shaped]: {"type":"minecraft:crafting_shaped","pattern":[" "],"key":{},"result":{"item":"minecraft:slime_ball","count":1}}: java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+[18:41:36] [WARN] Error parsing recipe create_confectionery:black_chocolate_recipe_6[create:mixing]: {"group":"create_confectionery","type":"create:mixing","ingredients":[{"item":"create_confectionery:black_chocolate_bricks_wall"}],"results":[{"fluid":"create_confectionery:black_chocolate","amount":1000}],"heatRequirement":"heated"}: com.google.gson.JsonSyntaxException: Unknown item 'create_confectionery:black_chocolate_bricks_wall'
+[18:41:36] [WARN] Error parsing recipe create:cutting/compat/forbidden_arcanus/stripped_mysterywood_log[create:cutting]: {"type":"create:cutting","conditions":[{"type":"forge:mod_loaded","modid":"forbidden_arcanus"}],"ingredients":[{"item":"forbidden_arcanus:stripped_mysterywood_log"}],"processingTime":50,"results":[{"count":6,"item":"forbidden_arcanus:mysterywood_planks"}]}: com.google.gson.JsonSyntaxException: Unknown item 'forbidden_arcanus:stripped_mysterywood_log'
+[18:41:36] [WARN] Error parsing recipe create:cutting/compat/forbidden_arcanus/stripped_mysterywood[create:cutting]: {"type":"create:cutting","conditions":[{"type":"forge:mod_loaded","modid":"forbidden_arcanus"}],"ingredients":[{"item":"forbidden_arcanus:stripped_mysterywood"}],"processingTime":50,"results":[{"count":6,"item":"forbidden_arcanus:mysterywood_planks"}]}: com.google.gson.JsonSyntaxException: Unknown item 'forbidden_arcanus:stripped_mysterywood'
+[18:41:36] [WARN] Error parsing recipe alexsdelight:barbecue_on_a_stick[minecraft:crafting_shapeless]: {"group":"barbecue_stick","type":"minecraft:crafting_shapeless","ingredients":[{"item":"farmersdelight:tomato"},{"item":"farmersdelight:onion"},{"item":"amfd:singular_cooked_moose_rib"},{"item":"minecraft:cooked_chicken"},{"item":"minecraft:stick"},{"item":"minecraft:stick"}],"result":{"item":"farmersdelight:barbecue_stick","count":2}}: com.google.gson.JsonSyntaxException: Unknown item 'amfd:singular_cooked_moose_rib'
+[18:41:36] [WARN] Error parsing recipe create_confectionery:chocolate_recipe_6[create:mixing]: {"group":"create_confectionery","type":"create:mixing","ingredients":[{"item":"create_confectionery:chocolate_bricks_wall"}],"results":[{"fluid":"create:chocolate","amount":1000}],"heatRequirement":"heated"}: com.google.gson.JsonSyntaxException: Unknown item 'create_confectionery:chocolate_bricks_wall'
+[18:41:36] [WARN] Error parsing recipe ravencoffee:cup_medium_brew_awkward[minecraft:crafting_shapeless]: {"type":"minecraft:crafting_shapeless","ingredients":[{"item":"minecraft:nether_wart"},{"item":"ravencoffee:cup_medium_brew_american"}],"result":{"item":"ravencoffee:cup_medium_brew_awkward","count":1}}: com.google.gson.JsonSyntaxException: Unknown item 'ravencoffee:cup_medium_brew_american'
+[18:41:36] [WARN] Error parsing recipe create:cutting/compat/forbidden_arcanus/stripped_cherrywood[create:cutting]: {"type":"create:cutting","conditions":[{"type":"forge:mod_loaded","modid":"forbidden_arcanus"}],"ingredients":[{"item":"forbidden_arcanus:stripped_cherrywood"}],"processingTime":50,"results":[{"count":6,"item":"forbidden_arcanus:cherrywood_planks"}]}: com.google.gson.JsonSyntaxException: Unknown item 'forbidden_arcanus:stripped_cherrywood'
+[18:41:36] [WARN] Error parsing recipe create:cutting/compat/forbidden_arcanus/stripped_cherrywood_log[create:cutting]: {"type":"create:cutting","conditions":[{"type":"forge:mod_loaded","modid":"forbidden_arcanus"}],"ingredients":[{"item":"forbidden_arcanus:stripped_cherrywood_log"}],"processingTime":50,"results":[{"count":6,"item":"forbidden_arcanus:cherrywood_planks"}]}: com.google.gson.JsonSyntaxException: Unknown item 'forbidden_arcanus:stripped_cherrywood_log'
+[18:41:36] [WARN] Error parsing recipe create:cutting/compat/forbidden_arcanus/mysterywood[create:cutting]: {"type":"create:cutting","conditions":[{"type":"forge:mod_loaded","modid":"forbidden_arcanus"}],"ingredients":[{"item":"forbidden_arcanus:mysterywood"}],"processingTime":50,"results":[{"item":"forbidden_arcanus:stripped_mysterywood"}]}: com.google.gson.JsonSyntaxException: Unknown item 'forbidden_arcanus:mysterywood'
+[18:41:36] [WARN] Error parsing recipe create_confectionery:ruby_chocolate_recipe_6[create:mixing]: {"group":"create_confectionery","type":"create:mixing","ingredients":[{"item":"create_confectionery:ruby_chocolate_brick_wall"}],"results":[{"fluid":"create_confectionery:ruby_chocolate","amount":1000}],"heatRequirement":"heated"}: com.google.gson.JsonSyntaxException: Unknown item 'create_confectionery:ruby_chocolate_brick_wall'
+[18:41:36] [WARN] Error parsing recipe create_confectionery:white_chocolate_recipe_6[create:mixing]: {"group":"create_confectionery","type":"create:mixing","ingredients":[{"item":"create_confectionery:white_chocolate_bricks_wall"}],"results":[{"fluid":"create_confectionery:white_chocolate","amount":1000}],"heatRequirement":"heated"}: com.google.gson.JsonSyntaxException: Unknown item 'create_confectionery:white_chocolate_bricks_wall'
+[18:41:36] [WARN] Error parsing recipe ravencoffee:cup_medium_brew_apple[minecraft:crafting_shapeless]: {"type":"minecraft:crafting_shapeless","ingredients":[{"item":"minecraft:apple"},{"item":"ravencoffee:cup_medium_brew_american"}],"result":{"item":"ravencoffee:cup_medium_brew_apple","count":1}}: com.google.gson.JsonSyntaxException: Unknown item 'ravencoffee:cup_medium_brew_american'
+[18:41:36] [WARN] Error parsing recipe create:cutting/compat/forbidden_arcanus/cherrywood_log[create:cutting]: {"type":"create:cutting","conditions":[{"type":"forge:mod_loaded","modid":"forbidden_arcanus"}],"ingredients":[{"item":"forbidden_arcanus:cherrywood_log"}],"processingTime":50,"results":[{"item":"forbidden_arcanus:stripped_cherrywood_log"}]}: com.google.gson.JsonSyntaxException: Unknown item 'forbidden_arcanus:cherrywood_log'
+[18:41:36] [WARN] Error parsing recipe create:cutting/compat/forbidden_arcanus/mysterywood_log[create:cutting]: {"type":"create:cutting","conditions":[{"type":"forge:mod_loaded","modid":"forbidden_arcanus"}],"ingredients":[{"item":"forbidden_arcanus:mysterywood_log"}],"processingTime":50,"results":[{"item":"forbidden_arcanus:stripped_mysterywood_log"}]}: com.google.gson.JsonSyntaxException: Unknown item 'forbidden_arcanus:mysterywood_log'
+[18:41:36] [WARN] Error parsing recipe kubejs:calculation_mechanism[create:sequenced_assembly]: {"type":"create:sequenced_assembly","results":[{"item":"kubejs:calculation_mechanism","count":1}],"ingredient":{"item":"kubejs:inductive_mechanism"},"sequence":[{"type":"create:deploying","results":[{"item":"kubejs:incomplete_calculation_mechanism","count":1}],"ingredients":[{"item":"kubejs:incomplete_calculation_mechanism"},{"fluid":"minecraft:empty","nbt":{},"amount":0}]},{"type":"create:deploying","results":[{"item":"kubejs:incomplete_calculation_mechanism","count":1}],"ingredients":[{"item":"kubejs:incomplete_calculation_mechanism"},{"fluid":"minecraft:empty","nbt":{},"amount":0}]},{"type":"create:deploying","results":[{"item":"kubejs:incomplete_calculation_mechanism","count":1}],"ingredients":[{"item":"kubejs:incomplete_calculation_mechanism"},{"tag":"forge:flash_drives"}]}],"transitionalItem":{"item":"kubejs:incomplete_calculation_mechanism","count":1},"loops":1}: java.lang.IllegalStateException: Can't modify the empty stack.
+[18:41:36] [WARN] Error parsing recipe create:kjs_57ma14s9c7h8vo1x373vegd2i[create:milling]: {"type":"create:milling","results":[{"fluid":"appliedenergistics2:sky_dust","amount":1000},{"fluid":"appliedenergistics2:sky_stone_block","amount":1000}],"ingredients":[{"fluid":"minecraft:empty","nbt":{},"amount":0}],"processingTime":1000}: java.lang.IllegalStateException: Can't modify the empty stack.
+[18:41:36] [WARN] Error parsing recipe create:kjs_9n4y3z794q9qxn5e8zg5lwo2c[create:filling]: {"type":"create:filling","results":[{"item":"create:electron_tube","count":1}],"ingredients":[{"item":"create:polished_rose_quartz"},{"fluid":"minecraft:empty","nbt":{},"amount":0}]}: java.lang.IllegalStateException: Can't modify the empty stack.
+[18:41:36] [WARN] Error parsing recipe create:kjs_e5tkgxgnoal6o2k0w4jnb9nwp[create:compacting]: {"type":"create:compacting","results":[{"fluid":"projectred-core:red_ingot","amount":1000}],"ingredients":[{"fluid":"minecraft:empty","nbt":{},"amount":0},{"fluid":"thermal:redstone","nbt":{},"amount":250}]}: java.lang.IllegalStateException: Can't modify the empty stack.
+[18:41:36] [WARN] Error parsing recipe create:kjs_30iqjqesl3hn8kxrm0ilh6cu6[create:mixing]: {"type":"create:mixing","results":[{"fluid":"tconstruct:molten_obsidian","amount":500}],"ingredients":[{"fluid":"minecraft:empty","nbt":{},"amount":0},{"fluid":"minecraft:empty","nbt":{},"amount":0},{"fluid":"minecraft:empty","nbt":{},"amount":0},{"fluid":"minecraft:empty","nbt":{},"amount":0},{"fluid":"minecraft:water","nbt":{},"amount":500}]}: java.lang.IllegalStateException: Can't modify the empty stack.
+[18:41:36] [WARN] Error parsing recipe create:kjs_1vtaxidvvsgoeu0ynbbfdqimt[create:mixing]: {"type":"create:mixing","results":[{"fluid":"tconstruct:molten_brass","amount":4}],"ingredients":[{"fluid":"minecraft:empty","nbt":{},"amount":0},{"fluid":"minecraft:empty","nbt":{},"amount":0}],"processingTime":1}: java.lang.IllegalStateException: Can't modify the empty stack.
+[18:41:36] [WARN] Error parsing recipe create:kjs_7olpqpbrtg65hv660z7qxango[create:compacting]: {"type":"create:compacting","results":[{"fluid":"projectred-core:red_ingot","amount":1000}],"ingredients":[{"fluid":"minecraft:empty","nbt":{},"amount":0},{"item":"minecraft:redstone"},{"item":"minecraft:redstone"},{"item":"minecraft:redstone"},{"item":"minecraft:redstone"}]}: java.lang.IllegalStateException: Can't modify the empty stack.
+[18:41:36] [WARN] Error parsing recipe create:kjs_agjtx8w6rst0ry6jfzupt55tp[create:mixing]: {"type":"create:mixing","results":[{"item":"kubejs:purified_certus_gem","count":1},{"fluid":"thermal:redstone","amount":250}],"ingredients":[{"fluid":"minecraft:empty","nbt":{},"amount":0},{"fluid":"minecraft:empty","nbt":{},"amount":0}]}: java.lang.IllegalStateException: Can't modify the empty stack.
+[18:41:36] [WARN] Error parsing recipe create:kjs_e18nrdsaqp8uomoilazp7w87p[create:mixing]: {"type":"create:mixing","results":[{"fluid":"tconstruct:molten_constantan","amount":4}],"ingredients":[{"fluid":"minecraft:empty","nbt":{},"amount":0},{"fluid":"minecraft:empty","nbt":{},"amount":0}],"processingTime":1}: java.lang.IllegalStateException: Can't modify the empty stack.
+[18:41:36] [WARN] Error parsing recipe create:kjs_7v5osljmyrojd6b9gr8wte1yf[create:mixing]: {"type":"create:mixing","results":[{"fluid":"tconstruct:molten_rose_gold","amount":4}],"ingredients":[{"fluid":"minecraft:empty","nbt":{},"amount":0},{"fluid":"minecraft:empty","nbt":{},"amount":0}],"processingTime":1}: java.lang.IllegalStateException: Can't modify the empty stack.
+[18:41:36] [INFO] Added 157 recipes, removed 558 recipes, modified 3 recipes, with 334 failed recipes in 107.7 ms

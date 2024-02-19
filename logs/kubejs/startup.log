@@ -1,0 +1,10 @@
+[18:40:52] [INIT] KubeJS 1902.6.2-build.59; MC 1902 forge
+[18:40:52] [INIT] Loaded plugins:
+[18:40:52] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[18:40:52] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[18:40:52] [INIT] - dev.latvian.mods.kubejs.thermal.KubeJSThermalPlugin
+[18:40:52] [INIT] - com.klikli_dev.modonomicon.integration.kubejs.ModonomiconKubeJSPlugin
+[18:40:52] [INIT] - dev.latvian.mods.kubejs.create.KubeJSCreatePlugin
+[18:40:54] [INFO] Loaded script startup_scripts:launch.js in 0.153 s
+[18:40:54] [INFO] Loaded script startup_scripts:trading.js in 0.022 s
+[18:40:54] [INFO] Loaded 2/2 KubeJS startup scripts in 1.735 s

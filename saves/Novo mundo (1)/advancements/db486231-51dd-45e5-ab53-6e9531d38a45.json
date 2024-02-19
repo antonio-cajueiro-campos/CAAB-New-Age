@@ -1,0 +1,45 @@
+{
+  "biomesoplenty:biomesoplenty/root": {
+    "criteria": {
+      "woodland": "2024-02-18 12:21:12 -0300"
+    },
+    "done": true
+  },
+  "exoticbirds:default/root": {
+    "criteria": {
+      "launch_mod": "2024-02-18 12:21:11 -0300"
+    },
+    "done": true
+  },
+  "modonomicon:modonomicon/root": {
+    "criteria": {
+      "modonomicon_present": "2024-02-18 12:21:11 -0300"
+    },
+    "done": true
+  },
+  "biomesoplenty:biomesoplenty/all_biomes": {
+    "criteria": {
+      "woodland": "2024-02-18 12:21:12 -0300"
+    },
+    "done": false
+  },
+  "lootr:root": {
+    "criteria": {
+      "always_true": "2024-02-18 12:21:11 -0300"
+    },
+    "done": true
+  },
+  "occultism:occultism/root": {
+    "criteria": {
+      "occultism_present": "2024-02-18 12:21:11 -0300"
+    },
+    "done": true
+  },
+  "repurposed_structures:root": {
+    "criteria": {
+      "always": "2024-02-18 12:21:11 -0300"
+    },
+    "done": true
+  },
+  "DataVersion": 3120
+}

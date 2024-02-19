@@ -1,0 +1,198 @@
+{
+	"level_seeds": [
+		{
+			"dim": "ad_astra:glacio_orbit",
+			"seed": 7380918456789560390
+		},
+		{
+			"dim": "minecraft:overworld",
+			"seed": 7380918456789560390
+		},
+		{
+			"dim": "ad_astra:mars",
+			"seed": 7380918456789560390
+		},
+		{
+			"dim": "minecraft:the_end",
+			"seed": 7380918456789560390
+		},
+		{
+			"dim": "swplanets:hot_orbit",
+			"seed": 7380918456789560390
+		},
+		{
+			"dim": "ad_astra:earth_orbit",
+			"seed": 7380918456789560390
+		},
+		{
+			"dim": "swplanets:kamino_orbit",
+			"seed": 7380918456789560390
+		},
+		{
+			"dim": "ad_astra:venus",
+			"seed": 7380918456789560390
+		},
+		{
+			"dim": "ad_astra:moon",
+			"seed": 7380918456789560390
+		},
+		{
+			"dim": "swplanets:mustafar",
+			"seed": 7380918456789560390
+		},
+		{
+			"dim": "swplanets:endor",
+			"seed": 7380918456789560390
+		},
+		{
+			"dim": "ad_astra:moon_orbit",
+			"seed": 7380918456789560390
+		},
+		{
+			"dim": "ad_astra:venus_orbit",
+			"seed": 7380918456789560390
+		},
+		{
+			"dim": "swplanets:tatooine_orbit",
+			"seed": 7380918456789560390
+		},
+		{
+			"dim": "swplanets:mustafar_orbit",
+			"seed": 7380918456789560390
+		},
+		{
+			"dim": "minecraft:the_nether",
+			"seed": 7380918456789560390
+		},
+		{
+			"dim": "swplanets:tatooine",
+			"seed": 7380918456789560390
+		},
+		{
+			"dim": "swplanets:kamino",
+			"seed": 7380918456789560390
+		},
+		{
+			"dim": "swplanets:endor_orbit",
+			"seed": 7380918456789560390
+		},
+		{
+			"dim": "ad_astra:glacio",
+			"seed": 7380918456789560390
+		},
+		{
+			"dim": "swplanets:hot",
+			"seed": 7380918456789560390
+		},
+		{
+			"dim": "ad_astra:mars_orbit",
+			"seed": 7380918456789560390
+		},
+		{
+			"dim": "ad_astra:mercury",
+			"seed": 7380918456789560390
+		},
+		{
+			"dim": "ad_astra:mercury_orbit",
+			"seed": 7380918456789560390
+		}
+	],
+	"structure_seeds": [
+		{
+			"dim": "ad_astra:glacio_orbit",
+			"seed": 7380918456789560390
+		},
+		{
+			"dim": "minecraft:overworld",
+			"seed": 7380918456789560390
+		},
+		{
+			"dim": "ad_astra:mars",
+			"seed": 7380918456789560390
+		},
+		{
+			"dim": "minecraft:the_end",
+			"seed": 7380918456789560390
+		},
+		{
+			"dim": "swplanets:hot_orbit",
+			"seed": 7380918456789560390
+		},
+		{
+			"dim": "ad_astra:earth_orbit",
+			"seed": 7380918456789560390
+		},
+		{
+			"dim": "swplanets:kamino_orbit",
+			"seed": 7380918456789560390
+		},
+		{
+			"dim": "ad_astra:venus",
+			"seed": 7380918456789560390
+		},
+		{
+			"dim": "ad_astra:moon",
+			"seed": 7380918456789560390
+		},
+		{
+			"dim": "swplanets:mustafar",
+			"seed": 7380918456789560390
+		},
+		{
+			"dim": "swplanets:endor",
+			"seed": 7380918456789560390
+		},
+		{
+			"dim": "ad_astra:moon_orbit",
+			"seed": 7380918456789560390
+		},
+		{
+			"dim": "ad_astra:venus_orbit",
+			"seed": 7380918456789560390
+		},
+		{
+			"dim": "swplanets:tatooine_orbit",
+			"seed": 7380918456789560390
+		},
+		{
+			"dim": "swplanets:mustafar_orbit",
+			"seed": 7380918456789560390
+		},
+		{
+			"dim": "minecraft:the_nether",
+			"seed": 7380918456789560390
+		},
+		{
+			"dim": "swplanets:tatooine",
+			"seed": 7380918456789560390
+		},
+		{
+			"dim": "swplanets:kamino",
+			"seed": 7380918456789560390
+		},
+		{
+			"dim": "swplanets:endor_orbit",
+			"seed": 7380918456789560390
+		},
+		{
+			"dim": "ad_astra:glacio",
+			"seed": 7380918456789560390
+		},
+		{
+			"dim": "swplanets:hot",
+			"seed": 7380918456789560390
+		},
+		{
+			"dim": "ad_astra:mars_orbit",
+			"seed": 7380918456789560390
+		},
+		{
+			"dim": "ad_astra:mercury",
+			"seed": 7380918456789560390
+		},
+		{
+			"dim": "ad_astra:mercury_orbit",
+			"seed": 7380918456789560390
+		}
+	]
+}

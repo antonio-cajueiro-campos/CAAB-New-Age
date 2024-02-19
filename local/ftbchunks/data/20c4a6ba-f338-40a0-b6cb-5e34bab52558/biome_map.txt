@@ -1,0 +1,8 @@
+#556 minecraft:beach
+#51A naturaldecormod:botany_field
+#010 minecraft:forest
+#79A minecraft:lukewarm_ocean
+#552 biomesoplenty:old_growth_woodland
+#3DC minecraft:plains
+#5FF minecraft:river
+#7F2 biomesoplenty:woodland

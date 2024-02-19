@@ -1,0 +1,20 @@
+{
+	id: "dae09633-a7f5-47cb-ae9d-08b6163de2b5"
+	type: "party"
+	owner: "80e8bb02-4485-3fc5-a8b5-f8cd9d42a992"
+	ranks: { }
+	properties: {
+		"ftbteams:display_name": "Akky Team"
+		"ftbteams:color": "#59E5FF"
+		"ftbchunks:block_edit_mode": "public"
+		"ftbchunks:block_interact_mode": "public"
+		"ftbteams:description": "Equipe momo"
+		"ftbteams:free_to_join": 1b
+		"ftbchunks:allow_fake_players": 1b
+	}
+	message_history: [
+		{ from: "00000000-0000-0000-0000-000000000000", date: 1705625361000L, text: "{\"color\":\"yellow\",\"extra\":[{\"text\":\"Akky\"},{\"text\":\" joined your party!\"}],\"text\":\"\"}" }
+		{ from: "00000000-0000-0000-0000-000000000000", date: 1705975306337L, text: "{\"color\":\"yellow\",\"extra\":[{\"text\":\"Akky\"},{\"text\":\" left your party!\"}],\"text\":\"\"}" }
+	]
+	extra: { }
+}

@@ -1,0 +1,24 @@
+{
+	id: "d2a362e8-bd01-4ee0-b735-8d8dc1334b2d"
+	type: "party"
+	owner: "2735fbdb-593e-35b9-8e07-c5af92043c99"
+	ranks: {
+		80e8bb02-4485-3fc5-a8b5-f8cd9d42a992: "member"
+		2735fbdb-593e-35b9-8e07-c5af92043c99: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "MOMOS LINDOUS"
+		"ftbteams:color": "#FF5996"
+		"ftbchunks:block_edit_mode": "allies"
+		"ftbchunks:block_interact_mode": "allies"
+		"ftbteams:description": "tiamumu"
+		"ftbteams:free_to_join": 0b
+		"ftbchunks:allow_fake_players": 1b
+	}
+	message_history: [
+		{ from: "00000000-0000-0000-0000-000000000000", date: 1705975334421L, text: "{\"color\":\"yellow\",\"extra\":[{\"text\":\"bhowxy\"},{\"text\":\" joined your party!\"}],\"text\":\"\"}" }
+		{ from: "2735fbdb-593e-35b9-8e07-c5af92043c99", date: 1705975334438L, text: "{\"color\":\"green\",\"text\":\"Invited Akky\"}" }
+		{ from: "00000000-0000-0000-0000-000000000000", date: 1705975342945L, text: "{\"color\":\"green\",\"extra\":[{\"text\":\"Akky\"},{\"text\":\" joined your party!\"}],\"text\":\"\"}" }
+	]
+	extra: { }
+}

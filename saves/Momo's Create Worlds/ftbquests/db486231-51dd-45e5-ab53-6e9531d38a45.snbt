@@ -1,0 +1,20 @@
+{
+	version: 1
+	uuid: "db48623151dd45e5ab536e9531d38a45"
+	name: "Akky"
+	can_edit: false
+	lock: false
+	auto_pin: false
+	task_progress: {
+		374CDBF68F90BDC9: 55
+	}
+	started: {
+		2F2BA8C2AC2E0B93: 1705464149020L
+		0000000000000001: 1705464149020L
+		1634333847CCE52A: 1705464149020L
+		374CDBF68F90BDC9: 1705464149020L
+	}
+	completed: { }
+	claimed_rewards: { }
+	pinned_quests: [ ]
+}
